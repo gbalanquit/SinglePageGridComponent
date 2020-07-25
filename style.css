@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Karla', sans-serif;
+    padding: 20px;
+    margin: 0;
+    min-height: 100vh;
+}
+
+main {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    width: 800px;
+}
+
+section {
+    padding: 35px;
+}
+
+.greyish-blue {
+    background-color: hsl(179, 47%, 52%);
+    color: #ffffff;
+}
+
+.cyan {
+    background-color: hsl(179, 62%, 43%);
+    color: #ffffff;
+}
+
+.row {
+    display: flex;
+}
+
+.row > section {
+    flex: 1;
+}
+
+h1 {
+    color: hsl(179, 62%, 43%);
+    font-size: 34px;
+}
+
+.yellow-text {
+    color: hsl(71, 73%,54%);
+}
+
+p {
+    font-size: 18px;
+}
+
+p.light-black {
+    color: #999999;
+    margin: 7px;
+}
+
+p.faded {
+    color: hsl(179, 43%, 75%);
+    display: flex;
+    align-items: center;    
+}
+
+p.faded span {
+    color: #ffffff;
+    font-size: 30px;
+    margin-right: 10px;
+
+}
+
+button {
+    background-color: hsl(71, 73%, 54%);
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 5px 5px 5px rgba(0,0,0,0.2);
+    color: #ffffff;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* stop at 
+https://github.com/florinpop17/frontend-mentor-challenges/blob/master/single-price-grid-component-master/style.css */
+
+
+
+
+/* Front-end Style Guide
+Layout
+The designs were created to the following widths:
+Mobile: 375px
+Desktop: 1440px
+Colors
+Primary
+Cyan: hsl(179, 62%, 43%)
+Bright Yellow: hsl(71, 73%, 54%)
+Neutral
+Light Gray: hsl(204, 43%, 93%)
+Grayish Blue: hsl(218, 22%, 67%)
+Typography
+Body Copy
+Font size: 16px
+Font
+Family: Karla
+Weights: 400, 700 */
